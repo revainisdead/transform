@@ -1,0 +1,37 @@
+Systems that contain energy
+Light, pyramids
+
+Could build a game that contains an energy system where
+things have limited energy and can gain it based on certain
+physics.
+
+light maps (later)
+
+offline - color of every pixel in tile
+gather picures of the tile with shaded (darker) colors
+
+if lightsource is a certain distance away
+choose the appropriate darkness of the tile
+
+num = darkness level (index of shaded_map)
+
+# Can be square..
+# but if another lightsource exists
+source1 = 1
+source2 = 2
+# tile.dark_lvl = 2 + 1
+# so dark_lvl turns to 3,
+
+# could use light lvl instead
+# so that 2 + 1 = 3 instead of  abs(source1 - source2)
+# abs(2-1)=1 and abs(1-2)=1
+
+[5][4][3][2][3][4][5]
+[4][3][2][1][2][3][4]
+[3][2][1][0][1][2][3]
+[2][1][0][0][0][1][2]
+[3][2][1][0][1][2][3]
+[4][3][2][1][2][3][4]
+[5][4][3][2][3][4][5]
+
+

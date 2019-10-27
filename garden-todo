@@ -1,0 +1,29 @@
+6-7-17
+------
+- Pick a name other than garden...
+- If player is spawned and the camera overextended on the right side of the map, then it will not center on the player. And won't fix itself when the player moves, in the x OR y direction.
+- Create stairs where the player can go to a cave. And return stairs are spawned next to the player (to which side of the player?) in the cave. Or maybe the player spawns near a wall and the return stairs are drawn near that wall or something, also depends on art.
+- Destroy trees. Two parts. 1. Let player destroy trees. 2. Add trees to inventory. 3. Let workers do it too.
+- Should the caves be a new state? Technically it has different rules, different stuff to create. Right now the tilemap handles creating biomes.
+    Create tilemap -> pass in biome
+    Tilemap creates a different biome based on choice.
+- Proximity is a cool word. Use it when determining player closeness for Bats and Worms. :)
+- Disable cutting trees or farming for minerals until that item is in the inventory. Same for workers. That is so Runescape though... And also let some items just collectable by hand until I can get enough resources for an axe or luckily find an axe on the ground? Too Runescape...
+- Flip topleft and bottomright water corners. For example, technically I want the topleft tile to rotate 90 degrees right and then rotate over the y axis. The water shadow should then be matched up.
+
+- Different colored cave tilesets: make blue cave, gray cave, etc.
+- But here's another idea, just add a layer of color to the entire level. Something like this will be needed to create the sensation of night time, if there are days... And there should be to give the player a sense of time: things last for a certain number of days, and it doesn't tell you how long a day is but day happens and night happens. I don't know if I want days because the player won't sleep or eat. So days make it feel more real, I don't necesarrily want it to feel real or like "survival". Survival is sometimes good, it portrays a feeling of constant struggle, but in a game of exploring and yearning for treasure and a general sense of GREED for not just vanity but EFFICIENCY and GREATER TRICKS OF THE TRADE, survival is not a good feeling. It takes away from the sense of greed and exploration, which is probably why I always felt gimped or taken away from my goal in Minecraft. In Trove I loved that I could explore endlessly, however the items I was getting were basically pointless: they were vanity only. Trophies, Pictures, etc. But one thing I did want more of was blocks: I could build more colorful things with more blocks. But adventuring more has nothing to do with more blocks, you could get all the blocks you wanted nearby.
+
+In conclusion: Adventuring or exploring should contribute to the experience, especially if survival is not a factor, and ESPECIALLY in RANDOM worlds! What's the point of a randomly generated world if you don't feel rewarded for going to the infinite worlds that can be generated!!! Take advantage of that.
+
+
+- Item ideas:
+    Water-sliders to move around water, move until: you hit the other side, you hit a collidable, etc. So it should be possible to get to any location across water, but would take some strategy (would make water basically like ice. Make ice in caves? blue cave maybe?)
+    Axe for wood?
+    Pickaxe for minerals?
+    Movement speed increases (not sure what they would be) Gain some movement speed for the player
+    Provide an expensive option to get all your workers the ITEM that you have obtained. Increase their movespeed. Get them the ability to cut wood. Give them the ability to fish. To do just about anything the player can do.
+
+The question becomes: What can workers do baseline? The obvious answer is gather: gather from bushes random things, gather from creates, barrels, gather fences, etc? Maybe...
+
+

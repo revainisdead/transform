@@ -1,0 +1,26 @@
+dt = delta time
+speed = pixels
+fps = frames per second
+
+3 speed * 60 fps = 180 pixels per second
+
+To go 180 p/s (pixels per second)
+How much do I move per dt?
+
+distance = dt * x
+
+x = distance / time
+{{{ Velocity. }}}
+
+time = 1 ; distance = 180
+
+180 p/s = v = d/dt
+
+180 * dt = d
+
+# Actually move with d (distance)
+rect.x + d
+
+Normalize (for diagonal speed)
+x, y = math.sqroot(x**2 + y**2)
+

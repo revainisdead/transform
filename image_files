@@ -1,0 +1,4 @@
+# Includes python3-pil
+sudo apt-get install python3-imaging
+
+

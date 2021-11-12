@@ -1,6 +1,3 @@
-
-
-
 class Point:
     def __init__(self, x=0, y=0, plot=False):
         self.__x = x
@@ -68,7 +65,6 @@ class Graph:
         Row = [Point, Point, Point]
         Row = [Point, Point, Point]
         ...
-
         Iterate over number of rows     (y value, set for each point)
         Iterate over numbers of cols    (x value, set for each point)
         """
@@ -145,8 +141,9 @@ class Graph:
         return plots
 
     def transform(self, deltax=0, deltay=0, eq=""):
-        while self.__move_plots(deltax, deltay):
-            pass
+        pass
+        #while self.__move_plots(deltax, deltay):
+        #    pass
 
 def fix_even(value):
     """
